@@ -444,6 +444,14 @@ input[placeholder], textarea[placeholder] {
   margin-left: 30%;
 }
 
+#mobile-menu-button {
+	display: none;
+}
+
+#logo-mobile {
+  display: none;
+}
+
 
 /* Extra Large devices (large desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
@@ -456,7 +464,15 @@ input[placeholder], textarea[placeholder] {
 @media only screen and (max-width: 1024px) {
   /* styles go here */
   .main {
-    width: 100%;
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .header-container {
+    display: block;
   }
 }
 
@@ -466,7 +482,7 @@ input[placeholder], textarea[placeholder] {
 @media only screen and (max-width: 992px) {
   /* styles go here */
   .main {
-    width: 100%;
+    display: none;
   }
 
   .container {
