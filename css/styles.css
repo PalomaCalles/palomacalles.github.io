@@ -452,6 +452,10 @@ input[placeholder], textarea[placeholder] {
   display: none;
 }
 
+.header-container {
+  display: none;
+}
+
 
 /* Extra Large devices (large desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
