@@ -477,7 +477,8 @@ input[placeholder], textarea[placeholder] {
   }
 
   .container {
-    margin-right: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
   }
 
   #mobile-menu-button {
@@ -485,7 +486,7 @@ input[placeholder], textarea[placeholder] {
   }
 
   #logo-mobile {
-    display: flex;
+    display: block;
   }
 
   .nav-container {
