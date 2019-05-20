@@ -13,7 +13,7 @@ body {
 }
 
 .main {
-  width: 1680px;
+  width: 100%;
   background-color: #1E1E1E;
 }
 
@@ -460,9 +460,6 @@ input[placeholder], textarea[placeholder] {
 /* Extra Large devices (large desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
   /* styles go here */
-  .main {
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -481,6 +478,14 @@ input[placeholder], textarea[placeholder] {
 
   .container {
     margin-right: 20px;
+  }
+
+  #mobile-menu-button {
+  	display: block;
+  }
+
+  #logo-mobile {
+    display: flex;
   }
 
   .nav-container {
