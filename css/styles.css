@@ -485,13 +485,31 @@ input[placeholder], textarea[placeholder] {
 */
 @media only screen and (max-width: 992px) {
   /* styles go here */
-  .main {
-    display: none;
-  }
 
   .container {
     margin-right: 20px;
   }
+
+  .nav-container {
+ 	display: block;
+ 	width: 100%;
+ 	overflow: hidden;
+	}
+
+	.nav-container.showing {
+ 	transition: all 500ms ease-in-out;
+ 	max-height: 500px;
+	}
+
+	.nav-container.hiding {
+ 	transition: all 500ms ease-in-out;
+ 	max-height: 0px;
+	}
+
+	.nav-item {
+		margin-left: 0;
+		margin-bottom: 5px;
+	}
 }
 
 /*
