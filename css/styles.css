@@ -483,6 +483,8 @@ input[placeholder], textarea[placeholder] {
 
   #mobile-menu-button {
   	display: block;
+    order: 1;
+    font-size: 30px;
   }
 
   .fa-bars {
@@ -497,7 +499,12 @@ input[placeholder], textarea[placeholder] {
  	display: block;
  	width: 100%;
  	overflow: hidden;
+  text-align: center;
 	}
+
+  .nav-item a {
+    color: #323233;
+  }
 
 	.nav-container.showing {
  	transition: all 500ms ease-in-out;
@@ -514,6 +521,11 @@ input[placeholder], textarea[placeholder] {
 		margin-bottom: 5px;
 	}
 }
+
+
+/* //    text-align: center;
+    padding-top: 62px;
+// */
 
 /*
   Large devices (desktops, 992px and down)
