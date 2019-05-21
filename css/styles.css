@@ -464,6 +464,19 @@ input[placeholder], textarea[placeholder] {
 
 @media only screen and (max-width: 1024px) {
   /* styles go here */
+
+}
+
+
+/* //    text-align: center;
+    padding-top: 62px;
+// */
+
+/*
+  Large devices (desktops, 992px and down)
+*/
+@media only screen and (max-width: 992px) {
+  /* styles go here */
   .main {
     display: none;
   }
@@ -520,19 +533,6 @@ input[placeholder], textarea[placeholder] {
 		margin-left: 0;
 		margin-bottom: 5px;
 	}
-}
-
-
-/* //    text-align: center;
-    padding-top: 62px;
-// */
-
-/*
-  Large devices (desktops, 992px and down)
-*/
-@media only screen and (max-width: 992px) {
-  /* styles go here */
-
 }
 
 /*
