@@ -485,6 +485,10 @@ input[placeholder], textarea[placeholder] {
   	display: block;
   }
 
+  .fa-bars {
+    color: #000;
+  }
+
   #logo-mobile {
     display: block;
   }
