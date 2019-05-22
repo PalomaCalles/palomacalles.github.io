@@ -183,7 +183,7 @@ ul {
   line-height: 1.8em;
 }
 
-.services {
+.skills {
   /* max-width: 900px; */
   color: #FFFFFF;
   background: #323233;
@@ -191,24 +191,24 @@ ul {
   padding-bottom: 240px;
 }
 
-.services h4 {
+.skills h4 {
   color: #b59c72;
   font-size: 0.9em;
 }
 
-.services h2 {
+.skills h2 {
   color: #FFFFFF;
   font-size: 2.5em;
 }
 
-.services p {
+.skills p {
   color: #A6A6A6;
   font-size: 1.4em;
   font-weight: 400;
   padding-bottom: 30px;
 }
 
-.services-list {
+.skills-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
