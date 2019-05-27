@@ -569,6 +569,7 @@ input[placeholder], textarea[placeholder] {
     display: block;
     color: #323233;
     background-color: #F9F9F9;
+    text-align: center;
   }
 
   .designer h3 {
@@ -592,6 +593,19 @@ input[placeholder], textarea[placeholder] {
   }
 
   .designer, .creative {
+    text-align: center;
+    width: 100%;
+  }
+
+  .skills h4 {
+    text-align: center;
+  }
+
+  .skills h2 {
+    text-align: center;
+  }
+
+  .skills p {
     text-align: center;
   }
 
