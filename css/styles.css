@@ -539,6 +539,10 @@ input[placeholder], textarea[placeholder] {
 		margin-left: 0;
 		margin-bottom: 5px;
 	}
+
+  .project-cover {
+    width: 50%;
+  }
 }
 
 /*
@@ -546,8 +550,23 @@ input[placeholder], textarea[placeholder] {
 */
 @media only screen and (max-width: 768px) {
   /* styles go here */
+
+  .container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .content {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .about-me h4 {
 
+  }
+
+  #contact {
+    margin-bottom: 0px;
   }
 }
 
