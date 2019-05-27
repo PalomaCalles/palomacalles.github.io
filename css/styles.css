@@ -562,7 +562,41 @@ input[placeholder], textarea[placeholder] {
   }
 
   .about-me h4 {
+    text-align: center;
+  }
 
+  .about-me p {
+    display: block;
+    color: #323233;
+    background-color: #F9F9F9;
+  }
+
+  .designer h3 {
+    text-align: center;
+  }
+
+  .creative h3 {
+    text-align: center;
+  }
+
+  .columns {
+    display: block;
+  }
+
+  .designer {
+    padding-right: 0;
+  }
+
+  .creative {
+    padding-left: 0;
+  }
+
+  .designer, .creative {
+    text-align: center;
+  }
+
+  .project-cover {
+    width: 100%;
   }
 
   #contact {
