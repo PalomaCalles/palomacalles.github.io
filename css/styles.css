@@ -494,9 +494,19 @@ input[placeholder], textarea[placeholder] {
 }
 
 #next {
-  bottom: 25px;
+  top: 25px;
   right: 45px;
   margin: 0;
+}
+
+#next a {
+  text-decoration: none;
+  color: #323233;
+}
+
+#next a:hover {
+  text-decoration: underline;
+  color: #b59c72;
 }
 
 #next img {
