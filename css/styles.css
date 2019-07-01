@@ -456,6 +456,18 @@ input[placeholder], textarea[placeholder] {
   display: none;
 }
 
+#cleancut-content h2, h3 {
+  text-align: center;
+}
+
+#cleancut-content h2 {
+  font-size: 2em;
+}
+
+#cleancut-content h3 {
+  font-size: 1.6em;
+}
+
 
 /* Extra Large devices (large desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
