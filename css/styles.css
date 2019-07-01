@@ -468,6 +468,10 @@ input[placeholder], textarea[placeholder] {
   font-size: 1.6em;
 }
 
+.project-title {
+  margin-top: 50px;
+}
+
 .cleancut-logo img {
   display: block;
   margin-left: auto;
@@ -505,7 +509,6 @@ input[placeholder], textarea[placeholder] {
 }
 
 #next a:hover {
-  text-decoration: underline;
   color: #b59c72;
 }
 
