@@ -493,15 +493,13 @@ input[placeholder], textarea[placeholder] {
   justify-content: space-between;
 }
 
-#back-arrow {
-  position: fixed;
-  bottom: 65px;
-  right: 25px;
+#next {
+  bottom: 25px;
+  right: 45px;
   margin: 0;
-  z-index: 10000;
 }
 
-#back-arrow img {
+#next img {
   width: 50px;
   height: auto;
 }
