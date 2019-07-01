@@ -468,7 +468,28 @@ input[placeholder], textarea[placeholder] {
   font-size: 1.6em;
 }
 
-.cleancut-logo.cleancut-shirt.cleancut-van.cleancut-app img {
+.cleancut-logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.cleancut-shirt img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.cleancut-van img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+.cleancut-app img {
   display: block;
   margin-left: auto;
   margin-right: auto;
