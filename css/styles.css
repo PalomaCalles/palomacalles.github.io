@@ -469,7 +469,16 @@ input[placeholder], textarea[placeholder] {
 }
 
 #back-arrow {
-  
+  position: fixed;
+  bottom: 65px;
+  right: 25px;
+  margin: 0;
+  z-index: 10000;
+}
+
+#back-arrow img {
+  width: 50px;
+  height: auto;
 }
 
 
