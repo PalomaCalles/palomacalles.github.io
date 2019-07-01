@@ -497,10 +497,30 @@ input[placeholder], textarea[placeholder] {
   justify-content: space-between;
 }
 
+#project-buttons {
+  display: flex;
+}
+
+#previous {
+  justify-content: flex-start;
+}
+
+#previous a {
+  text-decoration: none;
+  color: #323233;
+}
+
+#previous a:hover {
+  color: #b59c72;
+}
+
+#previous img {
+  width: 50px;
+  height: auto;
+}
+
 #next {
-  top: 25px;
-  right: 45px;
-  margin: 0;
+  justify-content: flex-end;
 }
 
 #next a {
